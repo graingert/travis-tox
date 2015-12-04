@@ -18,4 +18,7 @@ setup(
     packages=find_packages('src', exclude="tests"),
     zip_safe=True,
     include_package_data=False,
+    install_requires=[
+        'tox >= 2.2.1, <3.0.0',
+    ],
 )
